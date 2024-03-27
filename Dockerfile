@@ -1,4 +1,4 @@
-FROM node:12.20.0-buster
+FROM node:20.12.0-buster
 
 RUN apt-get update && apt-get install -y \
     curl \
